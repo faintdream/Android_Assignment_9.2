@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         MenuItem it2=menu.add(menu.NONE,GAMEPAD,menu.NONE,"Gamepad");
         MenuItem it3=menu.add(menu.NONE,CAMERA,menu.NONE,"camera");
 
-        it1.setIcon(R.drawable.ic_launcher_background);
-        it1.setShowAsAction(it1.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
+//        it1.setIcon(R.drawable.ic_launcher_background);
+//        it1.setShowAsAction(it1.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
         return super.onCreateOptionsMenu(menu);
     }
 
